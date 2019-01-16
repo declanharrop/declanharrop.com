@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import { Spring } from 'react-spring'
 import { StaticQuery, graphql } from 'gatsby'
