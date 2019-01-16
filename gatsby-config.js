@@ -3,9 +3,11 @@ module.exports = {
     title: `Declan Harrop`,
     description: `Welcome to Declan Harrop `,
     author: `38co`,
+    siteUrl: 'https://declanharrop.netlify.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -41,6 +43,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-netlify',
   ],
 }
