@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="440px" height="440px" viewBox="0 0 440 440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>DHLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M60,140 L129.383721,140 C146.314038,140 161.354585,143.314253 174.505814,149.942857 C187.657042,156.571462 197.860429,165.942797 205.116279,178.057143 C212.372129,190.171489 216,204.152302 216,220 C216,235.847698 212.372129,249.828511 205.116279,261.942857 C197.860429,274.057203 187.657042,283.428538 174.505814,290.057143 C161.354585,296.685747 146.314038,300 129.383721,300 L60,300 L60,140 Z M128.220141,276 C139.761182,276 149.915647,273.74655 158.683841,269.239583 C167.452034,264.732616 174.196698,258.316014 178.918033,249.989583 C183.639368,241.663153 186,232.000055 186,221 C186,209.999945 183.639368,200.336847 178.918033,192.010417 C174.196698,183.683986 167.452034,177.267384 158.683841,172.760417 C149.915647,168.25345 139.761182,166 128.220141,166 L90,166 L90,276 L128.220141,276 Z M380,140 L380,300 L350.321543,300 L350.321543,231.428571 L267.678457,231.428571 L267.678457,300 L238,300 L238,140 L267.678457,140 L267.678457,206.057143 L350.321543,206.057143 L350.321543,140 L380,140 Z" id="path-1"></path>
+        <filter x="-0.6%" y="-1.2%" width="101.2%" height="102.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DHLogo">
+            <circle id="Oval" fill="#2F97C1" fill-rule="nonzero" cx="220" cy="220" r="220"></circle>
+            <g id="DH-">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
