@@ -1,7 +1,7 @@
 ---
 slug: test-post
 title: Test Post
-date: 10-1-2019
+date: '2019-01-12'
 ---
 # This is a title
 
